@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.5ad6444f.css",
-    "main.js": "/static/js/main.d9979bd9.js",
-    "static/js/453.d0d22e5a.chunk.js": "/static/js/453.d0d22e5a.chunk.js",
-    "static/media/ionixx.png": "/static/media/ionixx.091a0ccad927e397e9df.png",
-    "static/media/cors.png": "/static/media/cors.f1aab1331b952a7e6ae2.png",
-    "static/media/juntets.png": "/static/media/juntets.5cf3d2bf9934d605f89a.png",
-    "static/media/rosa.png": "/static/media/rosa.23843877e9b6c8dc34dc.png",
-    "index.html": "/index.html",
-    "main.5ad6444f.css.map": "/static/css/main.5ad6444f.css.map",
-    "main.d9979bd9.js.map": "/static/js/main.d9979bd9.js.map",
-    "453.d0d22e5a.chunk.js.map": "/static/js/453.d0d22e5a.chunk.js.map"
+    "main.css": "/ionix/static/css/main.5ad6444f.css",
+    "main.js": "/ionix/static/js/main.c188dc29.js",
+    "static/js/453.d0d22e5a.chunk.js": "/ionix/static/js/453.d0d22e5a.chunk.js",
+    "static/media/ionixx.png": "/ionix/static/media/ionixx.091a0ccad927e397e9df.png",
+    "static/media/cors.png": "/ionix/static/media/cors.f1aab1331b952a7e6ae2.png",
+    "static/media/juntets.png": "/ionix/static/media/juntets.5cf3d2bf9934d605f89a.png",
+    "static/media/rosa.png": "/ionix/static/media/rosa.23843877e9b6c8dc34dc.png",
+    "index.html": "/ionix/index.html",
+    "main.5ad6444f.css.map": "/ionix/static/css/main.5ad6444f.css.map",
+    "main.c188dc29.js.map": "/ionix/static/js/main.c188dc29.js.map",
+    "453.d0d22e5a.chunk.js.map": "/ionix/static/js/453.d0d22e5a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5ad6444f.css",
-    "static/js/main.d9979bd9.js"
+    "static/js/main.c188dc29.js"
   ]
 }
