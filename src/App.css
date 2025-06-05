@@ -2,19 +2,60 @@
   text-align: center;
 }
 
+.Section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #ffe3ec;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
+.Cors {
+  height: 100%;
+  width: 100%;
+  pointer-events: none;
+  opacity: 0.25;
+  position: fixed;
+  /* Fixe a la pantalla */
+  top: auto;
+  /* Posició des del top de la pàgina */
+  left: auto;
+  /* Posició des de l'esquerra */
+
+  object-fit: cover;
+  /* Per mantenir la imatge coberta sense distorsionar */
+  z-index: 0;
+  animation: heartbeat 5s ease-in-out infinite;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: pendulum-swing 3s ease-in-out infinite;
+  }
+}
+
+@keyframes pendulum-swing {
+  0% {
+    transform: rotate(-85deg);
+  }
+
+  50% {
+    transform: rotate(-20deg);
+  }
+
+  100% {
+    transform: rotate(-85deg);
   }
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ffe3ec;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,15 +65,118 @@
   color: white;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Hand&display=swap');
+
+
+.App-title {
+  padding: 20px;
+  border-radius: 100px;
+  border: 5px dotted #fdafd2;
+  font-family: "Edu SA Hand", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #c8404e;
+  transition: font-size 0.3s ease-in-out;
+}
+
+
+.App-title:hover {
+  font-size: 4rem;
+
+}
+
+.Next:hover {
+  font-size: 4rem;
+  color: #ff95c5;
+}
+
+.Next {
+  background-color: none;
+  background: none;
+  border: none;
+
+  font-family: "Edu SA Hand", cursive;
+  font-size: 3rem;
+  font-weight: 700;
+  font-style: normal;
+  color: #c8404e;
+  transition: font-size 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.Foto {
+  height: 40vmin;
+  pointer-events: none;
+  animation: foto-spin 5s ease-in-out infinite;
+  border: 5px solid #ff95c5;
+  border-radius: 20px;
+  
+
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+
+  25% {
+    transform: scale(1.1);
+  }
+
+  50% {
+    transform: scale(1);
+  }
+
+  75% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.App-text {
+  font-size: 3rem;
+  margin-top: 100px;
+  font-family: "Edu SA Hand", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #c8404e;
+  animation: heartbeat 2s ease-in-out infinite;
+}
+
+.App-text2 {
+  font-size: 3rem;
+  margin-top: 100px;
+  font-family: "Edu SA Hand", cursive;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  color: #c8404e;
+  animation: heartbeat 5s ease-in-out infinite;
+  background-color: #fcd1e5;
+  border-radius: 100px;
+  padding: 20px;
+}
+
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@keyframes foto-spin {
+  
+
+  25% {
+    transform: rotate(-10deg);
   }
-  to {
-    transform: rotate(360deg);
+
+  
+
+  75% {
+    transform: rotate(10deg);
   }
+
+  
 }
